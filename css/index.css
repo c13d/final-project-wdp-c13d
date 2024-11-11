@@ -1,0 +1,77 @@
+/* Carousel */
+#carouselExampleDark {
+  background-image: url("../images/banner.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.carousel-inner .carousel-item img {
+  opacity: 0.9;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: black;
+}
+
+.carousel-caption {
+  background-color: white;
+}
+
+.kotakOren {
+  background-color: #ffea00;
+  width: fit-content;
+}
+
+.bg-yellow {
+  background-color: #ffea00;
+}
+
+.tx-yellow {
+  color: #ffea00;
+}
+
+.kotakAbu {
+  background-color: #414146;
+  width: fit-content;
+}
+
+.kotakAbu h4 {
+  color: white;
+}
+
+/* Card Creative */
+.card-img-top {
+  height: 250px;
+  object-fit: cover;
+}
+
+.card:hover a {
+  text-decoration: none;
+}
+
+.card:hover {
+  cursor: pointer;
+}
+
+.card-img-top:hover {
+  filter: grayscale(100%);
+}
+
+.card-title,
+.card-text {
+  color: black;
+}
+
+/* Our Work */
+.masonry-grid {
+  column-count: 6;
+  column-gap: 8px;
+}
+
+.masonry-grid img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 8px;
+  display: block;
+}
