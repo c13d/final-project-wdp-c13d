@@ -1,0 +1,16 @@
+#blog {
+    background-image: url("../images/banner.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 15vh;
+}
+
+.kotakAbu {
+    background-color: #ffea00;
+    width: fit-content;
+}
+
+.card-title, .card-text {
+    text-decoration: none;
+    color: black;
+}
